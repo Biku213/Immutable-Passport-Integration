@@ -40,7 +40,56 @@ Before you begin, make sure you have the following:
 
 ## Step 1: Creating a simple application or git cloning a repository of the simple application
 
-You can either create a new simple application or clone a repository of an existing one. For this guide, let's assume you already have a basic application in place.
+Before integrating Immutable Passport, you need an existing application or a repository of one to work with. If you don't have an application, follow these guidelines to create a simple application or clone an existing repository:
+
+### Creating a Simple Application
+
+1. **Set Up a New Directory**: Create a new directory for your application using your preferred command-line tool. You can use the `mkdir` command to create a new directory, and `cd` to navigate into it.
+
+   ```bash
+   mkdir my-immutable-app
+   cd my-immutable-app
+   ```
+
+2. **Initialize a New Project**: Use `npm init` or `yarn init` to initialize a new Node.js project. Follow the prompts to configure your project.
+
+   ```bash
+   npm init
+   # OR
+   yarn init
+   ```
+
+3. **Create App Files**: Create the necessary files for your application, such as an `index.html` for the front-end and an `app.js` for your application logic.
+
+4. **Install Dependencies**: Depending on your project requirements, you may need to install additional packages or frameworks, such as Express, React, or Vue.js. Use `npm install` or `yarn add` to install these dependencies.
+
+### Cloning an Existing Repository
+
+1. **Choose a Repository**: Find a repository or project that suits your needs. Platforms like GitHub and GitLab host a wide range of open-source projects.
+
+2. **Clone the Repository**: Use the `git clone` command to clone the repository to your local machine.
+
+   ```bash
+   git clone https://github.com/username/repo.git
+   ```
+
+3. **Navigate to the Cloned Directory**: Use `cd` to navigate into the cloned directory.
+
+   ```bash
+   cd repo
+   ```
+
+### Guidelines
+
+- When creating or cloning your application, ensure it has a clear and organized structure. Separating front-end and back-end code can make future integration tasks smoother.
+
+- If you're starting from scratch, think about your project's architecture and plan accordingly. Consider using a version control system like Git to track your changes.
+
+- Keep your application as lightweight as possible. You can add more features and components as you progress with your integration.
+
+- Test your application as you build it, even before integrating Immutable Passport. This ensures that your application works correctly at each stage of development.
+
+By creating or cloning your application, you're ready to move on to the next steps in integrating Immutable Passport. This is the foundation on which you'll build the features that leverage Immutable Passport's capabilities.
 
 ## Step 2: Registering the application on Immutable Developer Hub
 
