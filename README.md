@@ -1,4 +1,4 @@
-# Integrating Immutable Passport into Your Application
+# Guide for Integrating Immutable Passport into Your Application
 
 **Table of Contents**
 
